@@ -164,7 +164,10 @@
                         <asp:TextBox ID="SpectatorsTextBox4" runat="server"></asp:TextBox>
                     </div>
               </div>
-
+                      <div>
+                        <asp:Button ID="SubmitButton" runat="server" Text="Summary" OnClick="SubmitButton_Click" />
+                      </div>
+                      
 
             </div> <!-- end row -->
             </form>

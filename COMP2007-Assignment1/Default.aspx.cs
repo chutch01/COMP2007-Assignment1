@@ -13,5 +13,10 @@ namespace COMP2007_Assignment1
         {
 
         }
+
+        protected void SubmitButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
