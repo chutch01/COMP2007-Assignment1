@@ -164,10 +164,11 @@
                         <asp:TextBox ID="SpectatorsTextBox4" runat="server"></asp:TextBox>
                     </div>
               </div>
-                      <div>
+                      <div id ="button">
                         <asp:Button ID="SubmitButton" runat="server" Text="Summary" OnClick="SubmitButton_Click" />
+                           <asp:Button ID="ClearButton" runat="server" Text="Clear" OnClick="ClearButton_CLick" />
                       </div>
-                      
+                 
 
             </div> <!-- end row -->
             </form>
@@ -175,7 +176,16 @@
 
 
      
-        <!--end row-->
+    <div>
+        <asp:Label ID="GamesWonOutputLabel" runat="server"></asp:Label><br />
+        <asp:Label ID="GamesLostOutputLabel" runat="server"></asp:Label><br />
+        <asp:Label ID="WinPercentageOutputLabel" runat="server"></asp:Label><br />
+        <asp:Label ID="TotalPointsScoredOutputLabel" runat="server"></asp:Label><br />
+        <asp:Label ID="TotalPointsAllowedOutputLabel" runat="server"></asp:Label><br />
+        <asp:Label ID="PointDifferentialOutputLabel" runat="server"></asp:Label><br />
+        <asp:Label ID="TotalSpectatorsOutputLabel" runat="server"></asp:Label><br />
+        <asp:Label ID="AverageSpectatorsLabel" runat="server"></asp:Label><br />
+    </div>
     </div>
     <!--end container-->
 

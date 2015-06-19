@@ -48,7 +48,6 @@
                         <asp:ContentPlaceHolder ID="cpMainContent" runat="server"></asp:ContentPlaceHolder>
                     </asp:ContentPlaceHolder>
                 </section>
-                <aside id="Sidebar">Sidebar goes here</aside>
                 <footer>
                 <nav class="nav navbar-inverse">
                     <div> 
